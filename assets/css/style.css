@@ -1,0 +1,109 @@
+body{
+    color: white;
+    text-align: justify;
+}
+header{
+    background-image: url('../media/img/fundo.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+p {
+    font-size: 22px !important;
+}
+nav
+{
+    background-color: rgba(76, 143, 163,0.7);
+}
+footer
+{
+    padding: 15px;
+    background-color: #4C8FA3;
+}
+#about{
+    background-color: #205964;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#ps-logo
+{
+    width: 82%;
+    height: auto;
+}
+#down-ico{
+    position: absolute;
+    bottom: 45px;
+    margin: 0 auto;        
+    left: 10px;
+    right: 10px;
+}
+#down-ico>img
+{
+    width: 40px;
+    height: auto;
+}
+#logo-footer
+{
+    width: 250px;
+}
+#logo-nav
+{
+    width: 240px;
+    padding-left: 40px;
+    margin-top: 13px;
+}
+.social-ico
+{
+    padding-right: 12px;
+    width: 45px;
+}
+.fullHeight
+{
+    height: 100%;
+}
+.pbottom80
+{
+    padding-bottom: 80px !important;
+}
+.pright20
+{
+    padding-right: 20px !important;
+}
+.m0{
+    margin: 0px !important;
+}
+@media (max-width : 500px ){
+    #logo-footer
+    {
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        margin: 0 auto;
+    }
+    footer{
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+}
+
+
+@media (max-width: 699px)
+{
+    #about-text
+    {
+        font-size: 18px !important;
+    }    
+    #logo-nav
+    {
+        width: 180px;
+    }
+}
+
+@media (max-width: 992px)
+{
+    #logo-nav
+    {
+        padding-left:0px !important;
+    }
+}
