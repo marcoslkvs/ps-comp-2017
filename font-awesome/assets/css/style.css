@@ -1,0 +1,214 @@
+body{
+    color: white;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+.header_home{
+    background-image: url('../media/img/fundo.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+p {
+    font-size: 22px !important;
+}
+nav
+{
+    background-color: rgba(76, 143, 163,0.7);
+}
+footer
+{
+    padding: 15px;
+    background-color: #4C8FA3;
+}
+
+.ico_form,
+input,
+.material-icons
+{
+    color: #6a735b;
+}
+
+#inscription
+{
+    background-color: #efefef;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: rgb(31, 95, 109); 
+
+}
+
+.btn,
+#action-call
+{
+    background-color: #2C7586; 
+}
+#about
+{
+    background-color: #205964;
+}
+#inscription,
+#action-call,
+#about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.text-inscription
+{
+    font-size: 3em;
+}
+#ps-logo
+{
+    width: 100%;
+    height: auto;
+}
+#down-ico{
+    position: absolute;
+    bottom: 45px;
+    margin: 0 auto;        
+    left: 10px;
+    right: 10px;
+}
+#down-ico>img
+{
+    width: 40px;
+    height: auto;
+}
+#logo-footer
+{
+    width: 250px;
+    height: auto;
+}
+#logo-nav
+{
+    width: 240px;
+    padding-left: 40px;
+    margin-top: 13px;
+}
+.social-ico
+{
+    padding-right: 20px !important;
+    width: 45px;
+    color: white;
+}
+.social-ico:hover,
+.social-ico:focus{
+    color: #cfcfcd;
+    transition:0.5s;
+}
+.fullHeight
+{
+    height: 100%;
+}
+.pbottom80
+{
+    padding-bottom: 80px !important;
+}
+.pright20
+{
+    padding-right: 20px !important;
+}
+.m0{
+    margin: 0px !important;
+}
+.social-icons
+{
+    text-align: right;
+}
+@media (max-width : 439px ){
+    .btn-edital,
+    .btn-inscription
+    {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width : 500px ){
+    .logo-f
+    {
+        text-align: center;
+    }   
+    .social-icons
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
+@media (max-width: 699px)
+{
+    .text-responsive
+    {
+        font-size: 18px !important;
+    }    
+    #logo-nav
+    {
+        width: 180px;
+    }
+    .header_home{
+        background-image: url('../media/img/fundoCel.png');
+    }
+}
+
+@media (max-width: 992px)
+{
+    #logo-nav
+    {
+        padding-left:0px !important;
+    }
+}
+
+.btn-white
+{
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+}
+.btn-white:hover,
+.btn-white:focus
+{
+    background-color: #dfdfdf;
+}
+
+.btn-edital,
+.btn-inscription
+{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+#btn-up-page-box {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10%;
+    position: fixed;
+    z-index: 30000;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    background-color: #CCC;
+    color: #FFF;
+    opacity: 0.8;
+    display: none;
+  }
+  #btn-up-page-box:focus,
+  #btn-up-page-box:hover {
+    background-color: #000;
+    transition: 0.7s;
+    color: #FFF;
+  }
+.inscription_start_text
+{
+    margin-bottom: 60px;
+    color: black;
+}

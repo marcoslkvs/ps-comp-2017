@@ -1,8 +1,9 @@
 body{
     color: white;
     text-align: justify;
+    font-family: 'Montserrat', sans-serif;
 }
-header{
+.header_home{
     background-image: url('../media/img/fundo.png');
     background-position: center;
     background-size: cover;
@@ -21,14 +22,48 @@ footer
     padding: 15px;
     background-color: #4C8FA3;
 }
-#about{
+
+.ico_form,
+input,
+textarea,
+.material-icons
+{
+    color: #6a735b;
+}
+
+#inscription
+{
+    background-color: #efefef;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: rgb(31, 95, 109); 
+
+}
+
+.btn,
+#action-call
+{
+    background-color: #2C7586; 
+}
+#about
+{
     background-color: #205964;
+}
+#inscription,
+#action-call,
+#about{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.text-inscription
+{
+    font-size: 3em;
+}
 #ps-logo
 {
-    width: 82%;
+    width: 100%;
     height: auto;
 }
 #down-ico{
@@ -46,6 +81,7 @@ footer
 #logo-footer
 {
     width: 250px;
+    height: auto;
 }
 #logo-nav
 {
@@ -55,8 +91,14 @@ footer
 }
 .social-ico
 {
-    padding-right: 12px;
+    padding-right: 20px !important;
     width: 45px;
+    color: white;
+}
+.social-ico:hover,
+.social-ico:focus{
+    color: #cfcfcd;
+    transition:0.5s;
 }
 .fullHeight
 {
@@ -66,6 +108,14 @@ footer
 {
     padding-bottom: 80px !important;
 }
+.text-black
+{
+    color: black;
+}
+.check-ico
+{
+    font-size: 10em !important;
+}
 .pright20
 {
     padding-right: 20px !important;
@@ -73,30 +123,45 @@ footer
 .m0{
     margin: 0px !important;
 }
-@media (max-width : 500px ){
-    #logo-footer
+.social-icons
+{
+    text-align: right;
+}
+@media (max-width : 439px ){
+    .btn-edital,
+    .btn-inscription
     {
-        position: absolute;
-        left: 10px;
-        right: 10px;
-        margin: 0 auto;
+        margin-right: 0px;
+        margin-left: 0px;
     }
-    footer{
-        padding-top: 30px;
-        padding-bottom: 70px;
+}
+
+@media (max-width : 500px ){
+    .logo-f
+    {
+        text-align: center;
+    }   
+    .social-icons
+    {
+        text-align: center;
+        margin-top: 20px;
     }
+
 }
 
 
 @media (max-width: 699px)
 {
-    #about-text
+    .text-responsive
     {
         font-size: 18px !important;
     }    
     #logo-nav
     {
         width: 180px;
+    }
+    .header_home{
+        background-image: url('../media/img/fundoCel.png');
     }
 }
 
@@ -106,4 +171,74 @@ footer
     {
         padding-left:0px !important;
     }
+}
+
+.btn-white
+{
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+}
+.btn-white:hover,
+.btn-white:focus
+{
+    background-color: #dfdfdf;
+}
+
+.btn-edital,
+.btn-inscription
+{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+#btn-up-page-box {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10%;
+    position: fixed;
+    z-index: 30000;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    background-color: #CCC;
+    color: #FFF;
+    opacity: 0.8;
+    display: none;
+  }
+  #btn-up-page-box:focus,
+  #btn-up-page-box:hover {
+    background-color: #000;
+    transition: 0.7s;
+    color: #FFF;
+  }
+.inscription_start_text
+{
+    margin-bottom: 60px;
+    color: black;
+}
+.mtop30
+{
+    margin-top: 30px !important;
+}
+.pass
+{
+    color:rgb(49, 110, 128);
+    margin-bottom: 40px;
+}
+
+.text-model-cv
+{
+    font-size: 1.7em;
+    color: rgb(49, 110, 128);
+    margin-bottom: 30px;
+}
+
+.text-model-cv:hover,
+.text-model-cv:focus{
+    text-decoration: underline;
 }
